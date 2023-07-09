@@ -3,8 +3,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Xml;
 
 
-namespace DealingWithOPML.Pages
-{
+namespace DealingWithOPML.Pages;
+
     public class IndexModel : PageModel
     {
         private readonly IHttpClientFactory _clientFactory;
@@ -63,7 +63,3 @@ namespace DealingWithOPML.Pages
         public string? FeedTitle { get; set; }
         public string? FeedLink { get; set; }
     }
-
-
-
-}
